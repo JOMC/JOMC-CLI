@@ -194,6 +194,7 @@
                     <filtering>false</filtering>
                     <includes>
                       <include>**/*.vm</include>
+                      <include>**/*.properties</include>
                     </includes>
                   </resource>
                   <resource>
@@ -278,6 +279,14 @@
                     <groupId>org.jomc</groupId>
                     <artifactId>jomc-modlet</artifactId>
                     <version>1.0</version>
+                    <classifier>schemas</classifier>
+                    <type>jar</type>
+                    <outputDirectory>${project.build.directory}/jomc-schemas</outputDirectory>
+                  </artifactItem>
+                  <artifactItem>
+                    <groupId>org.jomc</groupId>
+                    <artifactId>jomc-modlet</artifactId>
+                    <version>1.2</version>
                     <classifier>schemas</classifier>
                     <type>jar</type>
                     <outputDirectory>${project.build.directory}/jomc-schemas</outputDirectory>

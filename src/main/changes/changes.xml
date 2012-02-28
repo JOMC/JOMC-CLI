@@ -137,6 +137,10 @@
       </action>
     </release>
     <!-- *********************************************************************************************************** -->
-    <release version="1.3"/>
+    <release version="1.3">
+      <action dev="schulte2005" type="fix"><![CDATA[Added missing
+      <code>org/jomc/tools/templates/jomc-cli/context.properties</code> resource to the attached templates archive.]]>
+      </action>
+    </release>
   </body>
 </document>
