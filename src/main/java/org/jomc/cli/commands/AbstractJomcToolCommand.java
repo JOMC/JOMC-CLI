@@ -195,6 +195,23 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
 
         } );
 
+        if ( commandLine.hasOption( this.getTemplateEncodingOption().getOpt() ) )
+        {
+            this.log( Level.WARNING, this.getDeprecatedOptionMessage(
+                this.getLocale(), this.getTemplateEncodingOption().getLongOpt(),
+                this.getDefaultTemplateEncodingOption().getLongOpt() ), null );
+
+            tool.setDefaultTemplateEncoding( commandLine.getOptionValue(
+                this.getTemplateEncodingOption().getOpt() ) );
+
+        }
+        else if ( commandLine.hasOption( this.getDefaultTemplateEncodingOption().getOpt() ) )
+        {
+            tool.setDefaultTemplateEncoding( commandLine.getOptionValue(
+                this.getDefaultTemplateEncodingOption().getOpt() ) );
+
+        }
+
         if ( commandLine.hasOption( this.getDefaultTemplateProfileOption().getOpt() ) )
         {
             tool.setDefaultTemplateProfile(
@@ -204,10 +221,6 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
         if ( commandLine.hasOption( this.getTemplateProfileOption().getOpt() ) )
         {
             tool.setTemplateProfile( commandLine.getOptionValue( this.getTemplateProfileOption().getOpt() ) );
-        }
-        if ( commandLine.hasOption( this.getTemplateEncodingOption().getOpt() ) )
-        {
-            tool.setTemplateEncoding( commandLine.getOptionValue( this.getTemplateEncodingOption().getOpt() ) );
         }
         if ( commandLine.hasOption( this.getTemplateLocationOption().getOpt() ) )
         {
@@ -502,6 +515,26 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "CountryOption" );
         assert _d != null : "'CountryOption' dependency not found.";
+        return _d;
+    }
+    /**
+     * Gets the {@code <DefaultTemplateEncodingOption>} dependency.
+     * <p>
+     *   This method returns the {@code <JOMC CLI Default Template Encoding Option>} object of the {@code <JOMC CLI Command Option>} specification at specification level 1.2.
+     *   That specification does not apply to any scope. A new object is returned whenever requested and bound to this instance.
+     * </p>
+     * <dl>
+     *   <dt><b>Final:</b></dt><dd>No</dd>
+     * </dl>
+     * @return The {@code <DefaultTemplateEncodingOption>} dependency.
+     * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
+     */
+    @SuppressWarnings("unused")
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.3-SNAPSHOT", comments = "See http://jomc.sourceforge.net/jomc/1.3/jomc-tools-1.3-SNAPSHOT" )
+    private org.apache.commons.cli.Option getDefaultTemplateEncodingOption()
+    {
+        final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "DefaultTemplateEncodingOption" );
+        assert _d != null : "'DefaultTemplateEncodingOption' dependency not found.";
         return _d;
     }
     /**
@@ -976,6 +1009,7 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
      * @return The {@code <TemplateEncodingOption>} dependency.
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
+    @Deprecated
     @SuppressWarnings("unused")
     @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.3-SNAPSHOT", comments = "See http://jomc.sourceforge.net/jomc/1.3/jomc-tools-1.3-SNAPSHOT" )
     private org.apache.commons.cli.Option getTemplateEncodingOption()
@@ -1332,6 +1366,28 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
         return _m;
     }
     /**
+     * Gets the text of the {@code <deprecatedOptionMessage>} message.
+     * <p><dl>
+     *   <dt><b>Languages:</b></dt>
+     *     <dd>English (default)</dd>
+     *     <dd>Deutsch</dd>
+     *   <dt><b>Final:</b></dt><dd>No</dd>
+     * </dl></p>
+     * @param locale The locale of the message to return.
+     * @param deprecatedOption Format argument.
+     * @param replacementOption Format argument.
+     * @return The text of the {@code <deprecatedOptionMessage>} message for {@code locale}.
+     * @throws org.jomc.ObjectManagementException if getting the message instance fails.
+     */
+    @SuppressWarnings("unused")
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.3-SNAPSHOT", comments = "See http://jomc.sourceforge.net/jomc/1.3/jomc-tools-1.3-SNAPSHOT" )
+    private String getDeprecatedOptionMessage( final java.util.Locale locale, final java.lang.String deprecatedOption, final java.lang.String replacementOption )
+    {
+        final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "deprecatedOptionMessage", locale, deprecatedOption, replacementOption );
+        assert _m != null : "'deprecatedOptionMessage' message not found.";
+        return _m;
+    }
+    /**
      * Gets the text of the {@code <documentFileInfo>} message.
      * <p><dl>
      *   <dt><b>Languages:</b></dt>
@@ -1666,6 +1722,10 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
      *     </tr>
      *     <tr class="TableRow">
      *       <td align="left" valign="top" nowrap>JOMC CLI Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC CLI Default Template Encoding Option</td>
+     *     </tr>
+     *     <tr class="TableRow">
+     *       <td align="left" valign="top" nowrap>JOMC CLI Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
      *       <td align="left" valign="top" nowrap>JOMC CLI Default Template Profile Option</td>
      *     </tr>
      *     <tr class="TableRow">
@@ -1779,6 +1839,7 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
         final org.apache.commons.cli.Options options = new org.apache.commons.cli.Options();
         options.addOption( this.getClasspathOption() );
         options.addOption( this.getCountryOption() );
+        options.addOption( this.getDefaultTemplateEncodingOption() );
         options.addOption( this.getDefaultTemplateProfileOption() );
         options.addOption( this.getDocumentsOption() );
         options.addOption( this.getImplementationOption() );
