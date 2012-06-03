@@ -270,5 +270,7 @@
       <code>java.lang.StackOverflowError</code> thrown using JDK 7 and to correctly close the class loader.]]>
       </action>
     </release>
+    <!-- *********************************************************************************************************** -->
+    <release version="1.4"/>
   </body>
 </document>
