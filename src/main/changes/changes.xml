@@ -260,7 +260,7 @@
       </action>
     </release>
     <!-- *********************************************************************************************************** -->
-    <release version="1.3">
+    <release version="1.3" date="2012-06-03">
       <action dev="schulte2005" type="add"><![CDATA[Added option <code>default-template-encoding</code> to commands
       <code>commit-classes</code>, <code>generate-resources</code>, <code>manage-sources</code> and
       <code>validate-classes</code> deprecating option <code>template-encoding</code>.]]>
