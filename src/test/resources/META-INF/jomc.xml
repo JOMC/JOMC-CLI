@@ -32,7 +32,7 @@
 -->
 <module xmlns="http://jomc.org/model"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://jomc.org/model http://jomc.sourceforge.net/model/jomc-1.2.xsd"
+        xsi:schemaLocation="http://jomc.org/model http://xml.jomc.org/model/jomc-1.2.xsd"
         name="${project.name} Tests" version="${project.version}" vendor="${project.organization.name}" modelVersion="1.2">
 
   <documentation defaultLanguage="en">
@@ -48,7 +48,7 @@
         <text language="en" type="text/x-javadoc">Tests the {@code Jomc} CLI class.</text>
       </documentation>
       <authors>
-        <author name="Christian Schulte" version="1.0" mail="schulte2005@users.sourceforge.net"
+        <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
                 createDate="2005-07-25T19:56:45Z"/>
 
       </authors>
@@ -164,7 +164,7 @@
         <text language="en" type="text/x-javadoc">Test cases for class {@code org.jomc.cli.commands.CommandExecutionException}.</text>
       </documentation>
       <authors>
-        <author name="Christian Schulte" version="1.2" mail="schulte2005@users.sourceforge.net"
+        <author name="Christian Schulte" version="1.2" mail="cs@schulte.it"
                 createDate="2012-01-13T04:07:45Z"/>
 
       </authors>
