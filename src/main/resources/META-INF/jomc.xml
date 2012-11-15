@@ -42,8 +42,10 @@
 
   <specifications>
     <!-- *********************************************************************************************************** -->
-    <specification identifier="${project.name} Command" class="org.jomc.cli.Command" classDeclaration="true"
-                   vendor="${project.organization.name}" version="${jomc.cli.command.version}" createDate="2009-07-25T19:56:45Z">
+    <specification identifier="${project.name} ⁑ Command"
+                   class="org.jomc.cli.Command" classDeclaration="true"
+                   vendor="${project.organization.name}" version="${jomc.cli.command.version}"
+                   createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">Command.</text>
@@ -55,8 +57,10 @@
       </authors>
     </specification>
     <!-- *********************************************************************************************************** -->
-    <specification identifier="${project.name} Application Option" class="org.apache.commons.cli.Option"
-                   vendor="${project.organization.name}" version="${jomc.cli.application.option.version}" createDate="2009-07-25T19:56:45Z">
+    <specification identifier="${project.name} ⁑ Application Option"
+                   class="org.apache.commons.cli.Option"
+                   vendor="${project.organization.name}" version="${jomc.cli.application.option.version}"
+                   createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">Application option.</text>
@@ -68,8 +72,10 @@
       </authors>
     </specification>
     <!-- *********************************************************************************************************** -->
-    <specification identifier="${project.name} Command Option" class="org.apache.commons.cli.Option"
-                   vendor="${project.organization.name}" version="${jomc.cli.command.option.version}" createDate="2009-07-25T19:56:45Z">
+    <specification identifier="${project.name} ⁑ Command Option"
+                   class="org.apache.commons.cli.Option"
+                   vendor="${project.organization.name}" version="${jomc.cli.command.option.version}"
+                   createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">Command option.</text>
@@ -87,9 +93,12 @@
     <!-- Options                                                                                                     -->
     <!--                                                                                                             -->
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Option Factory" class="org.jomc.cli.model.OptionFactory"
-                    classDeclaration="true" name="${project.name}" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Option Factory"
+                    name="${project.name} ⁑ Option Factory"
+                    class="org.jomc.cli.model.OptionFactory" classDeclaration="true"
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en" type="text/x-javadoc">Creates {@code Option} objects describing a single command-line option by maintaining information regarding the short-name, the long-name, a flag indicating if an argument is required, and a self-documenting description.</text>
@@ -157,10 +166,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Model Option"
-                    name="${project.name} Model Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Model Option"
+                    name="${project.name} ⁑ Model Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -168,10 +179,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="m" override="true"/>
@@ -194,9 +205,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Verbose Option" name="${project.name} Verbose Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Verbose Option"
+                    name="${project.name} ⁑ Verbose Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -204,10 +218,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Application Option" version="${jomc.cli.application.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Application Option" version="${jomc.cli.application.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="v" override="true"/>
@@ -223,9 +237,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Debug Option" name="${project.name} Debug Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Debug Option"
+                    name="${project.name} ⁑ Debug Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -233,10 +250,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Application Option" version="${jomc.cli.application.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Application Option" version="${jomc.cli.application.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="D" override="true"/>
@@ -260,9 +277,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Fail-On-Warnings Option" name="${project.name} Fail-On-Warnings Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Fail-On-Warnings Option"
+                    name="${project.name} ⁑ Fail-On-Warnings Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -270,10 +290,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Application Option" version="${jomc.cli.application.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Application Option" version="${jomc.cli.application.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="fw" override="true"/>
@@ -289,9 +309,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Classpath Option" name="${project.name} Classpath Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Classpath Option"
+                    name="${project.name} ⁑ Classpath Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -299,10 +322,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="cp" override="true"/>
@@ -328,9 +351,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Documents Option" name="${project.name} Documents Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Documents Option"
+                    name="${project.name} ⁑ Documents Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -338,10 +364,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="df" override="true"/>
@@ -367,9 +393,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Module Location Option" name="${project.name} Module Location Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Module Location Option"
+                    name="${project.name} ⁑ Module Location Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -377,10 +406,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="ml" override="true"/>
@@ -403,9 +432,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Location Option" name="${project.name} Modlet Location Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Location Option"
+                    name="${project.name} ⁑ Modlet Location Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -413,10 +445,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mdl" override="true"/>
@@ -439,10 +471,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Transformer Location Option"
-                    name="${project.name} Transformer Location Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Transformer Location Option"
+                    name="${project.name} ⁑ Transformer Location Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -450,10 +484,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="trl" override="true"/>
@@ -476,9 +510,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Provider Location Option" name="${project.name} Provider Location Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Provider Location Option"
+                    name="${project.name} ⁑ Provider Location Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -486,10 +523,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="pl" override="true"/>
@@ -512,10 +549,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Platform Provider Location Option"
-                    name="${project.name} Platform Provider Location Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Platform Provider Location Option"
+                    name="${project.name} ⁑ Platform Provider Location Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -523,10 +562,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="ppl" override="true"/>
@@ -549,9 +588,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Module Name Option" name="${project.name} Module Name Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Module Name Option"
+                    name="${project.name} ⁑ Module Name Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -559,10 +601,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mn" override="true"/>
@@ -585,10 +627,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Classpath Resolution Option"
-                    name="${project.name} No Classpath Resolution Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Classpath Resolution Option"
+                    name="${project.name} ⁑ No Classpath Resolution Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -596,10 +640,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="ncr" override="true"/>
@@ -615,10 +659,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Model Processing Option"
-                    name="${project.name} No Model Processing Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Model Processing Option"
+                    name="${project.name} ⁑ No Model Processing Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -626,10 +672,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="nmp" override="true"/>
@@ -645,10 +691,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Language Option"
-                    name="${project.name} Language Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Language Option"
+                    name="${project.name} ⁑ Language Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -656,10 +704,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="l" override="true"/>
@@ -682,10 +730,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Country Option"
-                    name="${project.name} Country Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Country Option"
+                    name="${project.name} ⁑ Country Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -693,10 +743,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="c" override="true"/>
@@ -719,10 +769,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Locale Variant Option"
-                    name="${project.name} Locale Variant Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Locale Variant Option"
+                    name="${project.name} ⁑ Locale Variant Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -730,10 +782,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="lv" override="true"/>
@@ -756,10 +808,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Resource Directory Option"
-                    name="${project.name} Resource Directory Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Resource Directory Option"
+                    name="${project.name} ⁑ Resource Directory Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -767,10 +821,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="rd" override="true"/>
@@ -793,10 +847,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Source Directory Option"
-                    name="${project.name} Source Directory Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Source Directory Option"
+                    name="${project.name} ⁑ Source Directory Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -804,10 +860,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="sd" override="true"/>
@@ -830,10 +886,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Template Profile Option"
-                    name="${project.name} Template Profile Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Template Profile Option"
+                    name="${project.name} ⁑ Template Profile Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -841,10 +899,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="tp" override="true"/>
@@ -867,10 +925,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Default Template Profile Option"
-                    name="${project.name} Default Template Profile Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Default Template Profile Option"
+                    name="${project.name} ⁑ Default Template Profile Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -878,10 +938,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="dtp" override="true"/>
@@ -904,22 +964,22 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Template Encoding Option"
-                    name="${project.name} Template Encoding Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z"
-                    deprecated="true">
+    <implementation identifier="${project.name} ⁑ Template Encoding Option"
+                    name="${project.name} ⁑ Template Encoding Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    deprecated="true"
+                    version="${project.version}" vendor="${project.organization.name}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
-        <author name="Christian Schulte" version="1.0" mail="schulte2005@users.sourceforge.net"
-                createDate="2005-07-25T19:56:45Z"/>
-
+        <author name="Christian Schulte" version="1.0" mail="cs@schulte.it" createDate="2005-07-25T19:56:45Z"/>
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="te" override="true"/>
@@ -942,10 +1002,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Default Template Encoding Option"
-                    name="${project.name} Default Template Encoding Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Default Template Encoding Option"
+                    name="${project.name} ⁑ Default Template Encoding Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -953,10 +1015,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="dte" override="true"/>
@@ -979,10 +1041,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Template Location Option"
-                    name="${project.name} Template Location Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Template Location Option"
+                    name="${project.name} ⁑ Template Location Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -990,10 +1054,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="tl" override="true"/>
@@ -1016,10 +1080,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Input Encoding Option"
-                    name="${project.name} Input Encoding Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Input Encoding Option"
+                    name="${project.name} ⁑ Input Encoding Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1027,10 +1093,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="ie" override="true"/>
@@ -1053,10 +1119,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Output Encoding Option"
-                    name="${project.name} Output Encoding Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Output Encoding Option"
+                    name="${project.name} ⁑ Output Encoding Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1064,10 +1132,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="oe" override="true"/>
@@ -1090,10 +1158,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Classes Directory Option"
-                    name="${project.name} Classes Directory Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Classes Directory Option"
+                    name="${project.name} ⁑ Classes Directory Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1101,10 +1171,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="cd" override="true"/>
@@ -1127,10 +1197,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Document Option"
-                    name="${project.name} Document Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Document Option"
+                    name="${project.name} ⁑ Document Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1138,10 +1210,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="d" override="true"/>
@@ -1164,10 +1236,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Document Encoding Option"
-                    name="${project.name} Document Encoding Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Document Encoding Option"
+                    name="${project.name} ⁑ Document Encoding Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1175,10 +1249,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="de" override="true"/>
@@ -1201,10 +1275,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Stylesheet Option"
-                    name="${project.name} Stylesheet Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Stylesheet Option"
+                    name="${project.name} ⁑ Stylesheet Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1212,10 +1288,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="xs" override="true"/>
@@ -1238,10 +1314,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Module Version Option"
-                    name="${project.name} Module Version Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Module Version Option"
+                    name="${project.name} ⁑ Module Version Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1249,10 +1327,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mv" override="true"/>
@@ -1275,10 +1353,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Module Vendor Option"
-                    name="${project.name} Module Vendor Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Module Vendor Option"
+                    name="${project.name} ⁑ Module Vendor Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1286,10 +1366,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mve" override="true"/>
@@ -1312,10 +1392,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Module Includes Option"
-                    name="${project.name} Module Includes Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Module Includes Option"
+                    name="${project.name} ⁑ Module Includes Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1323,10 +1405,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="minc" override="true"/>
@@ -1352,10 +1434,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Module Excludes Option"
-                    name="${project.name} Module Excludes Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Module Excludes Option"
+                    name="${project.name} ⁑ Module Excludes Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1363,10 +1447,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mexc" override="true"/>
@@ -1392,10 +1476,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Indentation String Option"
-                    name="${project.name} Indentation String Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Indentation String Option"
+                    name="${project.name} ⁑ Indentation String Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1403,10 +1489,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="idt" override="true"/>
@@ -1429,10 +1515,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Line Separator Option"
-                    name="${project.name} Line Separator Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Line Separator Option"
+                    name="${project.name} ⁑ Line Separator Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1440,10 +1528,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="ls" override="true"/>
@@ -1466,9 +1554,11 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Name Option" name="${project.name} Modlet Name Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Name Option" name="${project.name} ⁑ Modlet Name Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1476,10 +1566,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mdn" override="true"/>
@@ -1502,10 +1592,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Version Option"
-                    name="${project.name} Modlet Version Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Version Option"
+                    name="${project.name} ⁑ Modlet Version Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1513,10 +1605,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mdv" override="true"/>
@@ -1539,10 +1631,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Vendor Option"
-                    name="${project.name} Modlet Vendor Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Vendor Option"
+                    name="${project.name} ⁑ Modlet Vendor Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1550,10 +1644,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mdve" override="true"/>
@@ -1576,10 +1670,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Includes Option"
-                    name="${project.name} Modlet Includes Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Includes Option"
+                    name="${project.name} ⁑ Modlet Includes Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1587,10 +1683,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mdinc" override="true"/>
@@ -1616,10 +1712,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Excludes Option"
-                    name="${project.name} Modlet Excludes Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Excludes Option"
+                    name="${project.name} ⁑ Modlet Excludes Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1627,10 +1725,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mdexc" override="true"/>
@@ -1656,10 +1754,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Implementation Option"
-                    name="${project.name} Implementation Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Implementation Option"
+                    name="${project.name} ⁑ Implementation Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1667,10 +1767,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="impl" override="true"/>
@@ -1693,10 +1793,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Specification Option"
-                    name="${project.name} Specification Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Specification Option"
+                    name="${project.name} ⁑ Specification Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1704,10 +1806,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="spec" override="true"/>
@@ -1730,10 +1832,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} ClassFileProcessor Class Name Option"
-                    name="${project.name} ClassFileProcessor Class Name Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ ClassFileProcessor Class Name Option"
+                    name="${project.name} ⁑ ClassFileProcessor Class Name Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1741,10 +1845,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="cfpc" override="true"/>
@@ -1767,10 +1871,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} ResourceFileProcessor Class Name Option"
-                    name="${project.name} ResourceFileProcessor Class Name Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ ResourceFileProcessor Class Name Option"
+                    name="${project.name} ⁑ ResourceFileProcessor Class Name Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1778,10 +1884,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="rfpc" override="true"/>
@@ -1804,10 +1910,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} SourceFileProcessor Class Name Option"
-                    name="${project.name} SourceFileProcessor Class Name Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ SourceFileProcessor Class Name Option"
+                    name="${project.name} ⁑ SourceFileProcessor Class Name Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1815,10 +1923,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="sfpc" override="true"/>
@@ -1841,10 +1949,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} ModelContextFactory Class Name Option"
-                    name="${project.name} ModelContextFactory Class Name Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ ModelContextFactory Class Name Option"
+                    name="${project.name} ⁑ ModelContextFactory Class Name Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1852,10 +1962,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mcfc" override="true"/>
@@ -1878,10 +1988,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Schema System Id Option"
-                    name="${project.name} Modlet Schema System Id Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Modlet Schema System Id Option"
+                    name="${project.name} ⁑ Modlet Schema System Id Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1889,10 +2001,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="mssid" override="true"/>
@@ -1915,10 +2027,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Class File Processing Option"
-                    name="${project.name} No Class File Processing Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Class File Processing Option"
+                    name="${project.name} ⁑ No Class File Processing Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1926,10 +2040,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="ncp" override="true"/>
@@ -1945,10 +2059,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Source File Processing Option"
-                    name="${project.name} No Source File Processing Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Source File Processing Option"
+                    name="${project.name} ⁑ No Source File Processing Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1956,10 +2072,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="nsp" override="true"/>
@@ -1975,10 +2091,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Resource File Processing Option"
-                    name="${project.name} No Resource File Processing Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Resource File Processing Option"
+                    name="${project.name} ⁑ No Resource File Processing Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -1986,10 +2104,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="nrp" override="true"/>
@@ -2005,10 +2123,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Resources Option"
-                    name="${project.name} Resources Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Resources Option"
+                    name="${project.name} ⁑ Resources Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2016,10 +2136,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="rn" override="true"/>
@@ -2045,10 +2165,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Modlet Resource Validation Option"
-                    name="${project.name} No Modlet Resource Validation Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Modlet Resource Validation Option"
+                    name="${project.name} ⁑ No Modlet Resource Validation Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2056,10 +2178,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="nmdrv" override="true"/>
@@ -2075,10 +2197,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} No Model Resource Validation Option"
-                    name="${project.name} No Model Resource Validation Option"
-                    class="org.jomc.cli.model.OptionFactory" version="${project.version}"
-                    vendor="${project.organization.name}" final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ No Model Resource Validation Option"
+                    name="${project.name} ⁑ No Model Resource Validation Option"
+                    class="org.jomc.cli.model.OptionFactory"
+                    final="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2086,10 +2210,10 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}" final="true"/>
       </specifications>
       <implementations>
-        <reference identifier="${project.name} Option Factory" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Option Factory" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="opt" value="nmrv" override="true"/>
@@ -2109,8 +2233,10 @@
     <!-- Application                                                                                                 -->
     <!--                                                                                                             -->
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Application" class="org.jomc.cli.Jomc" classDeclaration="true"
-                    name="${project.name}" version="${project.version}" vendor="${project.organization.name}"
+    <implementation identifier="${project.name} ⁑ Application"
+                    name="${project.name} ⁑ Application"
+                    class="org.jomc.cli.Jomc" classDeclaration="true"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
@@ -2122,7 +2248,7 @@
 
       </authors>
       <dependencies>
-        <dependency name="Commands" identifier="${project.name} Command" version="1.0" bound="false"/>
+        <dependency name="Commands" identifier="${project.name} ⁑ Command" version="1.0" bound="false"/>
         <dependency name="Locale" identifier="java.util.Locale" version="1.1" implementationName="default"/>
         <!-- dependency name="CommandLineParser" identifier="org.apache.commons.cli.CommandLineParser"
                     implementationName="Commons CLI - Basic Command Line Parser" bound="false"/ -->
@@ -2133,14 +2259,14 @@
         <!-- dependency name="CommandLineParser" identifier="org.apache.commons.cli.CommandLineParser"
                     implementationName="Commons CLI - Posix Command Line Parser" bound="false"/ -->
 
-        <dependency name="DebugOption" identifier="${project.name} Application Option" version="${jomc.cli.application.option.version}"
-                    implementationName="${project.name} Debug Option"/>
+        <dependency name="DebugOption" identifier="${project.name} ⁑ Application Option" version="${jomc.cli.application.option.version}"
+                    implementationName="${project.name} ⁑ Debug Option"/>
 
-        <dependency name="FailOnWarningsOption" identifier="${project.name} Application Option" version="${jomc.cli.application.option.version}"
-                    implementationName="${project.name} Fail-On-Warnings Option"/>
+        <dependency name="FailOnWarningsOption" identifier="${project.name} ⁑ Application Option" version="${jomc.cli.application.option.version}"
+                    implementationName="${project.name} ⁑ Fail-On-Warnings Option"/>
 
-        <dependency name="VerboseOption" identifier="${project.name} Application Option" version="${jomc.cli.application.option.version}"
-                    implementationName="${project.name} Verbose Option"/>
+        <dependency name="VerboseOption" identifier="${project.name} ⁑ Application Option" version="${jomc.cli.application.option.version}"
+                    implementationName="${project.name} ⁑ Verbose Option"/>
 
       </dependencies>
       <properties>
@@ -2212,9 +2338,12 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="Commons CLI - Basic Command Line Parser" class="org.apache.commons.cli.BasicParser"
-                    name="Commons CLI - Basic Command Line Parser" version="1.2" vendor="The Apache Software Foundation"
-                    final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="Commons CLI - Basic Command Line Parser"
+                    name="Commons CLI - Basic Command Line Parser"
+                    class="org.apache.commons.cli.BasicParser"
+                    final="true"
+                    vendor="The Apache Software Foundation" version="1.2"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">The BasicParser provides a very simple implementation of the flatten method.</text>
@@ -2224,9 +2353,12 @@
       </specifications>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="Commons CLI - GNU Command Line Parser" class="org.apache.commons.cli.GnuParser"
-                    name="Commons CLI - GNU Command Line Parser" version="1.2" vendor="The Apache Software Foundation"
-                    final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="Commons CLI - GNU Command Line Parser"
+                    name="Commons CLI - GNU Command Line Parser"
+                    class="org.apache.commons.cli.GnuParser"
+                    final="true"
+                    vendor="The Apache Software Foundation" version="1.2"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">The GnuParser provides an implementation of the flatten method.</text>
@@ -2236,9 +2368,12 @@
       </specifications>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="Commons CLI - Posix Command Line Parser" class="org.apache.commons.cli.PosixParser"
-                    name="Commons CLI - Posix Command Line Parser" version="1.2" vendor="The Apache Software Foundation"
-                    final="true" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="Commons CLI - Posix Command Line Parser"
+                    name="Commons CLI - Posix Command Line Parser"
+                    class="org.apache.commons.cli.PosixParser"
+                    final="true"
+                    vendor="The Apache Software Foundation" version="1.2"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">The PosixParser provides an implementation of the flatten method.</text>
@@ -2252,10 +2387,11 @@
     <!-- Commands                                                                                                    -->
     <!--                                                                                                             -->
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Command Execution Exception"
-                    class="org.jomc.cli.commands.CommandExecutionException"
-                    classDeclaration="true" name="${project.name}" version="${project.version}"
-                    vendor="${project.organization.name}" createDate="2009-07-25T19:56:45Z">
+    <implementation identifier="${project.name} ⁑ Command Execution Exception"
+                    name="${project.name} ⁑ Command Execution Exception"
+                    class="org.jomc.cli.commands.CommandExecutionException" classDeclaration="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
         <text language="en">Command execution exception.</text>
@@ -2267,13 +2403,15 @@
       </authors>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Command"
+    <implementation identifier="${project.name} ⁑ Command"
+                    name="${project.name} ⁑ Command"
                     class="org.jomc.cli.commands.AbstractCommand" classDeclaration="true"
-                    name="${project.name} Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en">${project.name} command implementation.</text>
+        <text language="en">${project.name} ⁑ command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2281,7 +2419,7 @@
 
       </authors>
       <specifications>
-        <reference identifier="${project.name} Command" version="${jomc.cli.command.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command" version="${jomc.cli.command.version}" final="true"/>
       </specifications>
       <dependencies>
         <dependency name="Locale" identifier="java.util.Locale" version="1.1" implementationName="default"/>
@@ -2366,13 +2504,15 @@
       </source-files>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Modlet Command"
+    <implementation identifier="${project.name} ⁑ Modlet Command"
+                    name="${project.name} ⁑ Modlet Command"
                     class="org.jomc.cli.commands.AbstractModletCommand" classDeclaration="true"
-                    name="${project.name} Modlet Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en">${project.name} modlet based command implementation.</text>
+        <text language="en">${project.name} ⁑ modlet based command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2380,35 +2520,35 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="ClasspathOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Classpath Option"/>
+        <dependency name="ClasspathOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Classpath Option"/>
 
-        <dependency name="DocumentsOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Documents Option"/>
+        <dependency name="DocumentsOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Documents Option"/>
 
-        <dependency name="ModelContextFactoryOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} ModelContextFactory Class Name Option"/>
+        <dependency name="ModelContextFactoryOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ ModelContextFactory Class Name Option"/>
 
-        <dependency name="ModelOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Model Option"/>
+        <dependency name="ModelOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Model Option"/>
 
-        <dependency name="ModletSchemaSystemIdOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Schema System Id Option"/>
+        <dependency name="ModletSchemaSystemIdOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Schema System Id Option"/>
 
-        <dependency name="ModletLocationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Location Option"/>
+        <dependency name="ModletLocationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Location Option"/>
 
-        <dependency name="ProviderLocationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Provider Location Option"/>
+        <dependency name="ProviderLocationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Provider Location Option"/>
 
-        <dependency name="PlatformProviderLocationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Platform Provider Location Option"/>
+        <dependency name="PlatformProviderLocationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Platform Provider Location Option"/>
 
-        <dependency name="NoModletResourceValidation" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Modlet Resource Validation Option"/>
+        <dependency name="NoModletResourceValidation" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Modlet Resource Validation Option"/>
 
       </dependencies>
       <properties>
@@ -2432,7 +2572,7 @@
             <text language="en">List of service classes to exclude from any {@code META-INF/jomc-modlet.xml} files separated by {@code :}.</text>
           </documentation>
         </property>
-        <property name="modletExcludes" value="JOMC Modlet:JOMC Model:JOMC Tools:JOMC CLI" final="true">
+        <property name="modletExcludes" value="JOMC Modlet:JOMC ⁑ Modlet:JOMC Model:JOMC ⁑ Model:JOMC Tools:JOMC ⁑ Tools:JOMC CLI:JOMC ⁑ CLI" final="true">
           <documentation defaultLanguage="en">
             <text language="en">List of modlet names to exclude from any {@code META-INF/jomc-modlet.xml} files separated by {@code :}.</text>
           </documentation>
@@ -2546,13 +2686,15 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} Model Command"
+    <implementation identifier="${project.name} ⁑ Model Command"
+                    name="${project.name} ⁑ Model Command"
                     class="org.jomc.cli.commands.AbstractModelCommand" classDeclaration="true"
-                    name="${project.name} Model Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en">${project.name} model based command implementation.</text>
+        <text language="en">${project.name} ⁑ model based command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2560,34 +2702,36 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Modlet Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Modlet Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="ModuleLocationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Location Option"/>
+        <dependency name="ModuleLocationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Location Option"/>
 
-        <dependency name="TransformerLocationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Transformer Location Option"/>
+        <dependency name="TransformerLocationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Transformer Location Option"/>
 
-        <dependency name="NoClasspathResolutionOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Classpath Resolution Option"/>
+        <dependency name="NoClasspathResolutionOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Classpath Resolution Option"/>
 
-        <dependency name="NoModelProcessingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Model Processing Option"/>
+        <dependency name="NoModelProcessingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Model Processing Option"/>
 
-        <dependency name="NoModelResourceValidation" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Model Resource Validation Option"/>
+        <dependency name="NoModelResourceValidation" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Model Resource Validation Option"/>
 
       </dependencies>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} JomcTool Command"
+    <implementation identifier="${project.name} ⁑ JomcTool Command"
+                    name="${project.name} ⁑ JomcTool Command"
                     class="org.jomc.cli.commands.AbstractJomcToolCommand" classDeclaration="true"
-                    name="${project.name} JomcTool Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code JomcTool} based command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code JomcTool} based command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.2" mail="cs@schulte.it"
@@ -2595,53 +2739,53 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Model Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Model Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="TemplateProfileOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Template Profile Option"/>
+        <dependency name="TemplateProfileOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Template Profile Option"/>
 
-        <dependency name="DefaultTemplateEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Default Template Encoding Option"/>
+        <dependency name="DefaultTemplateEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Default Template Encoding Option"/>
 
-        <dependency name="DefaultTemplateProfileOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Default Template Profile Option"/>
+        <dependency name="DefaultTemplateProfileOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Default Template Profile Option"/>
 
-        <dependency name="TemplateEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Template Encoding Option" deprecated="true"/>
+        <dependency name="TemplateEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Template Encoding Option" deprecated="true"/>
 
-        <dependency name="TemplateLocationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Template Location Option"/>
+        <dependency name="TemplateLocationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Template Location Option"/>
 
-        <dependency name="OutputEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Output Encoding Option"/>
+        <dependency name="OutputEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Output Encoding Option"/>
 
-        <dependency name="InputEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Input Encoding Option"/>
+        <dependency name="InputEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Input Encoding Option"/>
 
-        <dependency name="IndentationStringOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Indentation String Option"/>
+        <dependency name="IndentationStringOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Indentation String Option"/>
 
-        <dependency name="LineSeparatorOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Line Separator Option"/>
+        <dependency name="LineSeparatorOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Line Separator Option"/>
 
-        <dependency name="LanguageOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Language Option"/>
+        <dependency name="LanguageOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Language Option"/>
 
-        <dependency name="CountryOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Country Option"/>
+        <dependency name="CountryOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Country Option"/>
 
-        <dependency name="LocaleVariantOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Locale Variant Option"/>
+        <dependency name="LocaleVariantOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Locale Variant Option"/>
 
-        <dependency name="ImplementationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Implementation Option"/>
+        <dependency name="ImplementationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Implementation Option"/>
 
-        <dependency name="ModuleNameOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Name Option"/>
+        <dependency name="ModuleNameOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Name Option"/>
 
-        <dependency name="SpecificationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Specification Option"/>
+        <dependency name="SpecificationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Specification Option"/>
 
       </dependencies>
       <messages>
@@ -2670,13 +2814,15 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} ClassFileProcessor Command"
+    <implementation identifier="${project.name} ⁑ ClassFileProcessor Command"
+                    name="${project.name} ⁑ ClassFileProcessor Command"
                     class="org.jomc.cli.commands.AbstractClassFileProcessorCommand" classDeclaration="true"
-                    name="${project.name} ClassFileProcessor Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code ClassFileProcessor} based command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code ClassFileProcessor} based command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.2" mail="cs@schulte.it"
@@ -2684,14 +2830,14 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} JomcTool Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ JomcTool Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="ClassFileProcessorOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} ClassFileProcessor Class Name Option"/>
+        <dependency name="ClassFileProcessorOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ ClassFileProcessor Class Name Option"/>
 
-        <dependency name="NoClassProcessingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Class File Processing Option"/>
+        <dependency name="NoClassProcessingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Class File Processing Option"/>
 
       </dependencies>
       <messages>
@@ -2704,13 +2850,15 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} ResourceFileProcessor Command"
+    <implementation identifier="${project.name} ⁑ ResourceFileProcessor Command"
+                    name="${project.name} ⁑ ResourceFileProcessor Command"
                     class="org.jomc.cli.commands.AbstractResourceFileProcessorCommand" classDeclaration="true"
-                    name="${project.name} ResourceFileProcessor Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code ResourceFileProcessor} based command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code ResourceFileProcessor} based command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.2" mail="cs@schulte.it"
@@ -2718,17 +2866,17 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} JomcTool Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ JomcTool Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="ResourceFileProcessorOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} ResourceFileProcessor Class Name Option"/>
+        <dependency name="ResourceFileProcessorOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ ResourceFileProcessor Class Name Option"/>
 
-        <dependency name="NoResourceProcessingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Resource File Processing Option"/>
+        <dependency name="NoResourceProcessingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Resource File Processing Option"/>
 
-        <dependency name="ResourceDirectoryOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Resource Directory Option">
+        <dependency name="ResourceDirectoryOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Resource Directory Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
@@ -2745,13 +2893,15 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} SourceFileProcessor Command"
+    <implementation identifier="${project.name} ⁑ SourceFileProcessor Command"
+                    name="${project.name} ⁑ SourceFileProcessor Command"
                     class="org.jomc.cli.commands.AbstractSourceFileProcessorCommand" classDeclaration="true"
-                    name="${project.name} SourceFileProcessor Command" version="${project.version}"
-                    vendor="${project.organization.name}" abstract="true" createDate="2009-07-25T19:56:45Z">
+                    abstract="true"
+                    vendor="${project.organization.name}" version="${project.version}"
+                    createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code SourceFileProcessor} based command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code SourceFileProcessor} based command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.2" mail="cs@schulte.it"
@@ -2759,17 +2909,17 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} JomcTool Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ JomcTool Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="SourceFileProcessorOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} SourceFileProcessor Class Name Option"/>
+        <dependency name="SourceFileProcessorOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ SourceFileProcessor Class Name Option"/>
 
-        <dependency name="NoSourceProcessingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} No Source File Processing Option"/>
+        <dependency name="NoSourceProcessingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ No Source File Processing Option"/>
 
-        <dependency name="SourceDirectoryOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Source Directory Option">
+        <dependency name="SourceDirectoryOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Source Directory Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
@@ -2786,13 +2936,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} generate-resources Command"
+    <implementation identifier="${project.name} ⁑ Default generate-resources Command"
+                    name="${project.name} ⁑ Default generate-resources Command"
                     class="org.jomc.cli.commands.GenerateResourcesCommand" classDeclaration="true"
-                    name="default-generate-resources" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code generate-resources} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code generate-resources} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2800,7 +2951,7 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} ResourceFileProcessor Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ ResourceFileProcessor Command" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="commandName" value="generate-resources" override="true">
@@ -2856,13 +3007,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} manage-sources Command"
+    <implementation identifier="${project.name} ⁑ Default manage-sources Command"
+                    name="${project.name} ⁑ Default manage-sources Command"
                     class="org.jomc.cli.commands.ManageSourcesCommand" classDeclaration="true"
-                    name="default-manage-sources" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code manage-sources} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code manage-sources} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2870,7 +3022,7 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} SourceFileProcessor Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ SourceFileProcessor Command" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="commandName" value="manage-sources" override="true">
@@ -2914,13 +3066,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} commit-classes Command"
+    <implementation identifier="${project.name} ⁑ Default commit-classes Command"
+                    name="${project.name} ⁑ Default commit-classes Command"
                     class="org.jomc.cli.commands.CommitClassesCommand" classDeclaration="true"
-                    name="default-commit-classes" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code commit-classes} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code commit-classes} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2928,19 +3081,19 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} ClassFileProcessor Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ ClassFileProcessor Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="ClassesDirectoryOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Classes Directory Option">
+        <dependency name="ClassesDirectoryOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Classes Directory Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
           </properties>
         </dependency>
 
-        <dependency name="StylesheetOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Stylesheet Option"/>
+        <dependency name="StylesheetOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Stylesheet Option"/>
 
       </dependencies>
       <properties>
@@ -2981,13 +3134,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} validate-classes Command"
+    <implementation identifier="${project.name} ⁑ Default validate-classes Command"
+                    name="${project.name} ⁑ Default validate-classes Command"
                     class="org.jomc.cli.commands.ValidateClassesCommand" classDeclaration="true"
-                    name="default-validate-classes" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code validate-classes} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code validate-classes} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -2995,7 +3149,7 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} ClassFileProcessor Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ ClassFileProcessor Command" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="commandName" value="validate-classes" override="true">
@@ -3037,13 +3191,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} validate-model Command"
+    <implementation identifier="${project.name} ⁑ Default validate-model Command"
+                    name="${project.name} ⁑ Default validate-model Command"
                     class="org.jomc.cli.commands.ValidateModelCommand" classDeclaration="true"
-                    name="default-validate-model" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code validate-model} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code validate-model} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -3051,7 +3206,7 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Model Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Model Command" version="${project.version}" final="true"/>
       </implementations>
       <properties>
         <property name="commandName" value="validate-model" override="true">
@@ -3087,13 +3242,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} merge-modules Command"
+    <implementation identifier="${project.name} ⁑ Default merge-modules Command"
+                    name="${project.name} ⁑ Default merge-modules Command"
                     class="org.jomc.cli.commands.MergeModulesCommand" classDeclaration="true"
-                    name="default-merge-modules" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code merge-modules} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code merge-modules} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -3101,44 +3257,44 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Model Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Model Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="DocumentOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Document Option">
+        <dependency name="DocumentOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Document Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
           </properties>
         </dependency>
 
-        <dependency name="DocumentEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Document Encoding Option"/>
+        <dependency name="DocumentEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Document Encoding Option"/>
 
-        <dependency name="StylesheetOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Stylesheet Option"/>
+        <dependency name="StylesheetOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Stylesheet Option"/>
 
-        <dependency name="ModuleNameOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Name Option">
+        <dependency name="ModuleNameOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Name Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
           </properties>
         </dependency>
-        <dependency name="ModuleVersionOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Version Option"/>
+        <dependency name="ModuleVersionOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Version Option"/>
 
-        <dependency name="ModuleVendorOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Vendor Option"/>
+        <dependency name="ModuleVendorOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Vendor Option"/>
 
-        <dependency name="ModuleIncludesOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Includes Option"/>
+        <dependency name="ModuleIncludesOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Includes Option"/>
 
-        <dependency name="ModuleExcludesOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Excludes Option"/>
+        <dependency name="ModuleExcludesOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Excludes Option"/>
 
-        <dependency name="ResourcesOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Resources Option"/>
+        <dependency name="ResourcesOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Resources Option"/>
 
       </dependencies>
       <properties>
@@ -3201,13 +3357,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} merge-modlets Command"
+    <implementation identifier="${project.name} ⁑ Default merge-modlets Command"
+                    name="${project.name} ⁑ Default merge-modlets Command"
                     class="org.jomc.cli.commands.MergeModletsCommand" classDeclaration="true"
-                    name="default-merge-modlets" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code merge-modlets} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code merge-modlets} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -3215,44 +3372,44 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Modlet Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Modlet Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="DocumentOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Document Option">
+        <dependency name="DocumentOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Document Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
           </properties>
         </dependency>
 
-        <dependency name="DocumentEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Document Encoding Option"/>
+        <dependency name="DocumentEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Document Encoding Option"/>
 
-        <dependency name="StylesheetOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Stylesheet Option"/>
+        <dependency name="StylesheetOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Stylesheet Option"/>
 
-        <dependency name="ModletNameOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Name Option">
+        <dependency name="ModletNameOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Name Option">
 
           <properties>
             <property name="required" type="boolean" value="true" override="true"/>
           </properties>
         </dependency>
-        <dependency name="ModletVersionOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Version Option"/>
+        <dependency name="ModletVersionOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Version Option"/>
 
-        <dependency name="ModletVendorOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Vendor Option"/>
+        <dependency name="ModletVendorOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Vendor Option"/>
 
-        <dependency name="ModletIncludesOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Includes Option"/>
+        <dependency name="ModletIncludesOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Includes Option"/>
 
-        <dependency name="ModletExcludesOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Modlet Excludes Option"/>
+        <dependency name="ModletExcludesOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Modlet Excludes Option"/>
 
-        <dependency name="ResourcesOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Resources Option"/>
+        <dependency name="ResourcesOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Resources Option"/>
 
       </dependencies>
       <properties>
@@ -3313,13 +3470,14 @@
       </messages>
     </implementation>
     <!-- *********************************************************************************************************** -->
-    <implementation identifier="${project.name} show-model Command"
+    <implementation identifier="${project.name} ⁑ Default show-model Command"
+                    name="${project.name} ⁑ Default show-model Command"
                     class="org.jomc.cli.commands.ShowModelCommand" classDeclaration="true"
-                    name="default-show-model" version="${project.version}" vendor="${project.organization.name}"
+                    vendor="${project.organization.name}" version="${project.version}"
                     createDate="2009-07-25T19:56:45Z">
 
       <documentation defaultLanguage="en">
-        <text language="en" type="text/x-javadoc">${project.name} {@code show-model} command implementation.</text>
+        <text language="en" type="text/x-javadoc">${project.name} ⁑ {@code show-model} command implementation.</text>
       </documentation>
       <authors>
         <author name="Christian Schulte" version="1.0" mail="cs@schulte.it"
@@ -3327,23 +3485,23 @@
 
       </authors>
       <implementations>
-        <reference identifier="${project.name} Model Command" version="${project.version}" final="true"/>
+        <reference identifier="${project.name} ⁑ Model Command" version="${project.version}" final="true"/>
       </implementations>
       <dependencies>
-        <dependency name="DocumentOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Document Option"/>
+        <dependency name="DocumentOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Document Option"/>
 
-        <dependency name="DocumentEncodingOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Document Encoding Option"/>
+        <dependency name="DocumentEncodingOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Document Encoding Option"/>
 
-        <dependency name="ImplementationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Implementation Option"/>
+        <dependency name="ImplementationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Implementation Option"/>
 
-        <dependency name="ModuleNameOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Module Name Option"/>
+        <dependency name="ModuleNameOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Module Name Option"/>
 
-        <dependency name="SpecificationOption" identifier="${project.name} Command Option" version="${jomc.cli.command.option.version}"
-                    implementationName="${project.name} Specification Option"/>
+        <dependency name="SpecificationOption" identifier="${project.name} ⁑ Command Option" version="${jomc.cli.command.option.version}"
+                    implementationName="${project.name} ⁑ Specification Option"/>
 
       </dependencies>
       <properties>
