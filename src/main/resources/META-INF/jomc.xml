@@ -3022,6 +3022,8 @@
                       -mn "JOMC ⁑ CLI" \
                       -tp "jomc-cli-bundles" \
                       -tl "examples/vm" \
+                      -ie "UTF-8" \
+                      -oe "UTF-8" \
                       -v]]></text>
             <text language="de"><![CDATA[Beispiel:
   jomc generate-resources -cp examples/lib/commons-cli-1.2.jar \
@@ -3036,6 +3038,8 @@
                       -mn "JOMC ⁑ CLI" \
                       -tp "jomc-cli-bundles" \
                       -tl "examples/vm" \
+                      -ie "UTF-8" \
+                      -oe "UTF-8" \
                       -v]]></text>
           </template>
         </message>
@@ -3087,6 +3091,8 @@
                       -mn "JOMC ⁑ CLI" \
                       -tp "jomc-cli" \
                       -tl "examples/vm" \
+                      -ie "UTF-8" \
+                      -oe "UTF-8" \
                       -v]]></text>
             <text language="de"><![CDATA[Beispiel:
   jomc manage-sources -cp examples/lib/commons-cli-1.2.jar \
@@ -3095,6 +3101,8 @@
                       -mn "JOMC ⁑ CLI" \
                       -tp "jomc-cli" \
                       -tl "examples/vm" \
+                      -ie "UTF-8" \
+                      -oe "UTF-8" \
                       -v]]></text>
           </template>
         </message>
@@ -3359,6 +3367,7 @@
                      -xs examples/xslt/model-relocations.xsl \
                      -mn "Merged Name" \
                      -d /tmp/jomc.xml \
+                     -de "UTF-8" \
                      -v]]></text>
             <text language="de"><![CDATA[Beispiel:
   jomc merge-modules -cp examples/lib/commons-cli-1.2.jar \
@@ -3366,6 +3375,7 @@
                      -xs examples/xslt/model-relocations.xsl \
                      -mn "Merged Name" \
                      -d /tmp/jomc.xml \
+                     -de "UTF-8" \
                      -v]]></text>
           </template>
         </message>
@@ -3473,12 +3483,14 @@
                      -xs examples/xslt/modlet-relocations.xsl \
                      -mdn "Merged Name" \
                      -d /tmp/jomc-modlet.xml \
+                     -de "UTF-8" \
                      -v]]></text>
             <text language="de"><![CDATA[Beispiel:
   jomc merge-modlets -cp examples/lib/commons-cli-1.2.jar \
                      -xs examples/xslt/modlet-relocations.xsl \
                      -mdn "Merged Name" \
                      -d /tmp/jomc-modlet.xml \
+                     -de "UTF-8" \
                      -v]]></text>
           </template>
         </message>
