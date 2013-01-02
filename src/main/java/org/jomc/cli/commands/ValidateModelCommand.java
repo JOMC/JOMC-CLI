@@ -49,10 +49,10 @@ import org.jomc.modlet.ModelValidationReport;
  * JOMC ⁑ CLI ⁑ {@code validate-model} command implementation.
  *
  * <dl>
- *   <dt><b>Identifier:</b></dt><dd>JOMC &#8273; CLI &#8273; Default validate-model Command</dd>
- *   <dt><b>Name:</b></dt><dd>JOMC &#8273; CLI &#8273; Default validate-model Command</dd>
+ *   <dt><b>Identifier:</b></dt><dd>JOMC ⁑ CLI ⁑ Default validate-model Command</dd>
+ *   <dt><b>Name:</b></dt><dd>JOMC ⁑ CLI ⁑ Default validate-model Command</dd>
  *   <dt><b>Specifications:</b></dt>
- *     <dd>JOMC &#8273; CLI &#8273; Command @ 1.0</dd>
+ *     <dd>JOMC ⁑ CLI ⁑ Command @ 1.0</dd>
  *   <dt><b>Abstract:</b></dt><dd>No</dd>
  *   <dt><b>Final:</b></dt><dd>No</dd>
  *   <dt><b>Stateless:</b></dt><dd>No</dd>
@@ -336,7 +336,7 @@ public final class ValidateModelCommand extends AbstractModelCommand
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings("unused")
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 2.0-SNAPSHOT", comments = "See http://www.jomc.org/jomc/2.0/jomc-tools-2.0-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.4-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.4/jomc-tools-1.4-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoJavaValidationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Java Validation Option" );
@@ -994,64 +994,64 @@ public final class ValidateModelCommand extends AbstractModelCommand
      *       <th align="left" scope="col" nowrap><b>Implementation</b></th>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Classpath Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Classpath Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Documents Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Documents Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; ModelContextFactory Class Name Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ ModelContextFactory Class Name Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Model Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Model Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Modlet Location Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Modlet Location Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Modlet Schema System Id Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Modlet Schema System Id Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Module Location Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Module Location Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; No Classpath Resolution Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ No Classpath Resolution Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; No Java Validation Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ No Java Validation Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; No Model Processing Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ No Model Processing Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; No Model Resource Validation Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ No Model Resource Validation Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; No Modlet Resource Validation Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ No Modlet Resource Validation Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Platform Provider Location Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Platform Provider Location Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Provider Location Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Provider Location Option</td>
      *     </tr>
      *     <tr class="TableRow">
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
-     *       <td align="left" valign="top" nowrap>JOMC &#8273; CLI &#8273; Transformer Location Option</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Command Option {@code (org.apache.commons.cli.Option)} @ 1.2</td>
+     *       <td align="left" valign="top" nowrap>JOMC ⁑ CLI ⁑ Transformer Location Option</td>
      *     </tr>
      *   </table>
      * </p>
