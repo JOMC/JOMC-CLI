@@ -731,7 +731,7 @@ public abstract class AbstractClassFileProcessorCommand extends AbstractJomcTool
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @Deprecated
-    @SuppressWarnings("unused")
+    @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
     @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.6-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.6/jomc-tools-1.6-SNAPSHOT" )
     private org.apache.commons.cli.Option getTemplateEncodingOption()
     {
@@ -1100,7 +1100,7 @@ public abstract class AbstractClassFileProcessorCommand extends AbstractJomcTool
      * @return The text of the {@code <Deprecated Option Message>} message for {@code locale}.
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
-    @SuppressWarnings("unused")
+    @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
     @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.6-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.6/jomc-tools-1.6-SNAPSHOT" )
     private String getDeprecatedOptionMessage( final java.util.Locale locale, final java.lang.String deprecatedOption, final java.lang.String replacementOption )
     {
