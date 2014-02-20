@@ -62,7 +62,7 @@ import org.apache.commons.cli.Options;
 // SECTION-END
 // SECTION-START[Annotations]
 // <editor-fold defaultstate="collapsed" desc=" Generated Annotations ">
-@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.6-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.6/jomc-tools-1.6-SNAPSHOT" )
+@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
 // </editor-fold>
 // SECTION-END
 public interface Command
