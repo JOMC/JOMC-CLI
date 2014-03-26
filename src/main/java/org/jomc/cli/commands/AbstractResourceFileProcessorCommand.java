@@ -55,13 +55,13 @@ import org.jomc.tools.ResourceFileProcessor;
  * </dl>
  *
  * @author <a href="mailto:cs@schulte.it">Christian Schulte</a> 1.2
- * @version 1.7-SNAPSHOT
+ * @version 1.8-SNAPSHOT
  */
 // </editor-fold>
 // SECTION-END
 // SECTION-START[Annotations]
 // <editor-fold defaultstate="collapsed" desc=" Generated Annotations ">
-@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
 // </editor-fold>
 // SECTION-END
 public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcToolCommand
@@ -134,7 +134,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
     // SECTION-START[Constructors]
     // <editor-fold defaultstate="collapsed" desc=" Generated Constructors ">
     /** Creates a new {@code AbstractResourceFileProcessorCommand} instance. */
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     public AbstractResourceFileProcessorCommand()
     {
         // SECTION-START[Default Constructor]
@@ -158,7 +158,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getClasspathOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Classpath Option" );
@@ -178,7 +178,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getCountryOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Country Option" );
@@ -198,7 +198,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getDefaultTemplateEncodingOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Default Template Encoding Option" );
@@ -218,7 +218,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getDefaultTemplateProfileOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Default Template Profile Option" );
@@ -238,7 +238,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getDocumentsOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Documents Option" );
@@ -258,7 +258,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getImplementationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Implementation Option" );
@@ -278,7 +278,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getIndentationStringOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Indentation String Option" );
@@ -298,7 +298,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getInputEncodingOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Input Encoding Option" );
@@ -318,7 +318,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getLanguageOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Language Option" );
@@ -338,7 +338,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getLineSeparatorOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Line Separator Option" );
@@ -358,7 +358,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.util.Locale getLocale()
     {
         final java.util.Locale _d = (java.util.Locale) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Locale" );
@@ -378,7 +378,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getLocaleVariantOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Locale Variant Option" );
@@ -398,7 +398,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getModelContextFactoryOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Model Context Factory Option" );
@@ -418,7 +418,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getModelOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Model Option" );
@@ -438,7 +438,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getModletLocationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Modlet Location Option" );
@@ -458,7 +458,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getModletSchemaSystemIdOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Modlet Schema System Id Option" );
@@ -478,7 +478,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getModuleLocationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Module Location Option" );
@@ -498,7 +498,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getModuleNameOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Module Name Option" );
@@ -518,7 +518,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoClasspathResolutionOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Classpath Resolution Option" );
@@ -538,7 +538,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoJavaValidationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Java Validation Option" );
@@ -558,7 +558,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoModelProcessingOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Model Processing Option" );
@@ -578,7 +578,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoModelResourceValidation()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Model Resource Validation" );
@@ -598,7 +598,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoModletResourceValidation()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Modlet Resource Validation" );
@@ -618,7 +618,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getNoResourceProcessingOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "No Resource Processing Option" );
@@ -638,7 +638,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getOutputEncodingOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Output Encoding Option" );
@@ -658,7 +658,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getPlatformProviderLocationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Platform Provider Location Option" );
@@ -678,7 +678,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getProviderLocationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Provider Location Option" );
@@ -712,7 +712,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getResourceDirectoryOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Resource Directory Option" );
@@ -732,7 +732,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getResourceFileProcessorOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Resource File Processor Option" );
@@ -752,7 +752,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getSpecificationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Specification Option" );
@@ -773,7 +773,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      */
     @Deprecated
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getTemplateEncodingOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Template Encoding Option" );
@@ -793,7 +793,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getTemplateLocationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Template Location Option" );
@@ -813,7 +813,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getTemplateProfileOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Template Profile Option" );
@@ -833,7 +833,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the dependency instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private org.apache.commons.cli.Option getTransformerLocationOption()
     {
         final org.apache.commons.cli.Option _d = (org.apache.commons.cli.Option) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getDependency( this, "Transformer Location Option" );
@@ -853,7 +853,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getAbbreviatedCommandName()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Abbreviated Command Name" );
@@ -869,7 +869,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getApplicationModlet()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Application Modlet" );
@@ -885,7 +885,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getCommandName()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Command Name" );
@@ -901,7 +901,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getModletExcludes()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Modlet Excludes" );
@@ -917,7 +917,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getProviderExcludes()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Provider Excludes" );
@@ -933,7 +933,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getSchemaExcludes()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Schema Excludes" );
@@ -949,7 +949,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the property instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private java.lang.String getServiceExcludes()
     {
         final java.lang.String _p = (java.lang.String) org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getProperty( this, "Service Excludes" );
@@ -972,7 +972,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getApplicationTitle( final java.util.Locale locale )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Application Title", locale );
@@ -994,7 +994,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getCannotProcessMessage( final java.util.Locale locale, final java.lang.String itemInfo, final java.lang.String detailMessage )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Cannot Process Message", locale, itemInfo, detailMessage );
@@ -1015,7 +1015,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getClasspathElementInfo( final java.util.Locale locale, final java.lang.String classpathElement )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Classpath Element Info", locale, classpathElement );
@@ -1036,7 +1036,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getClasspathElementNotFoundWarning( final java.util.Locale locale, final java.lang.String fileName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Classpath Element Not Found Warning", locale, fileName );
@@ -1057,7 +1057,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getCommandFailureMessage( final java.util.Locale locale, final java.lang.String toolName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Command Failure Message", locale, toolName );
@@ -1078,7 +1078,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getCommandInfoMessage( final java.util.Locale locale, final java.lang.String toolName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Command Info Message", locale, toolName );
@@ -1099,7 +1099,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getCommandSuccessMessage( final java.util.Locale locale, final java.lang.String toolName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Command Success Message", locale, toolName );
@@ -1120,7 +1120,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getDefaultLogLevelInfo( final java.util.Locale locale, final java.lang.String defaultLogLevel )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Default Log Level Info", locale, defaultLogLevel );
@@ -1142,7 +1142,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getDeprecatedOptionMessage( final java.util.Locale locale, final java.lang.String deprecatedOption, final java.lang.String replacementOption )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Deprecated Option Message", locale, deprecatedOption, replacementOption );
@@ -1162,7 +1162,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getDisabledMessage( final java.util.Locale locale )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Disabled Message", locale );
@@ -1183,7 +1183,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getDocumentFileInfo( final java.util.Locale locale, final java.lang.String documentFile )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Document File Info", locale, documentFile );
@@ -1204,7 +1204,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getDocumentFileNotFoundWarning( final java.util.Locale locale, final java.lang.String fileName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Document File Not Found Warning", locale, fileName );
@@ -1226,7 +1226,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getExcludedModletInfo( final java.util.Locale locale, final java.lang.String resourceName, final java.lang.String modletIdentifier )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Excluded Modlet Info", locale, resourceName, modletIdentifier );
@@ -1248,7 +1248,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getExcludedProviderInfo( final java.util.Locale locale, final java.lang.String resourceName, final java.lang.String providerName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Excluded Provider Info", locale, resourceName, providerName );
@@ -1270,7 +1270,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getExcludedSchemaInfo( final java.util.Locale locale, final java.lang.String resourceName, final java.lang.String contextId )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Excluded Schema Info", locale, resourceName, contextId );
@@ -1292,7 +1292,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getExcludedServiceInfo( final java.util.Locale locale, final java.lang.String resourceName, final java.lang.String serviceName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Excluded Service Info", locale, resourceName, serviceName );
@@ -1313,7 +1313,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getFailedCreatingObjectMessage( final java.util.Locale locale, final java.lang.String objectInfo )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Failed Creating Object Message", locale, objectInfo );
@@ -1334,7 +1334,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getImplementationNotFoundWarning( final java.util.Locale locale, final java.lang.String implementationIdentifier )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Implementation Not Found Warning", locale, implementationIdentifier );
@@ -1355,7 +1355,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getInvalidModelMessage( final java.util.Locale locale, final java.lang.String modelIdentifier )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Invalid Model Message", locale, modelIdentifier );
@@ -1374,7 +1374,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getLongDescriptionMessage( final java.util.Locale locale )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Long Description Message", locale );
@@ -1395,7 +1395,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getModuleNotFoundWarning( final java.util.Locale locale, final java.lang.String moduleName )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Module Not Found Warning", locale, moduleName );
@@ -1416,7 +1416,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getReadingMessage( final java.util.Locale locale, final java.lang.String locationInfo )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Reading Message", locale, locationInfo );
@@ -1435,7 +1435,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getSeparator( final java.util.Locale locale )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Separator", locale );
@@ -1454,7 +1454,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getShortDescriptionMessage( final java.util.Locale locale )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Short Description Message", locale );
@@ -1475,7 +1475,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * @throws org.jomc.ObjectManagementException if getting the message instance fails.
      */
     @SuppressWarnings({"unused", "PMD.UnnecessaryFullyQualifiedName"})
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     private String getSpecificationNotFoundWarning( final java.util.Locale locale, final java.lang.String specificationIdentifier )
     {
         final String _m = org.jomc.ObjectManagerFactory.getObjectManager( this.getClass().getClassLoader() ).getMessage( this, "Specification Not Found Warning", locale, specificationIdentifier );
@@ -1630,7 +1630,7 @@ public abstract class AbstractResourceFileProcessorCommand extends AbstractJomcT
      * </p>
      * @return The options of the command.
      */
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     @Override
     public org.apache.commons.cli.Options getOptions()
     {

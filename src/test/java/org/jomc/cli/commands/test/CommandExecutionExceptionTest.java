@@ -54,13 +54,13 @@ import static org.junit.Assert.assertEquals;
  * </dl>
  *
  * @author <a href="mailto:cs@schulte.it">Christian Schulte</a> 1.2
- * @version 1.7-SNAPSHOT
+ * @version 1.8-SNAPSHOT
  */
 // </editor-fold>
 // SECTION-END
 // SECTION-START[Annotations]
 // <editor-fold defaultstate="collapsed" desc=" Generated Annotations ">
-@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
 // </editor-fold>
 // SECTION-END
 public class CommandExecutionExceptionTest
@@ -86,7 +86,7 @@ public class CommandExecutionExceptionTest
     // SECTION-START[Constructors]
     // <editor-fold defaultstate="collapsed" desc=" Generated Constructors ">
     /** Creates a new {@code CommandExecutionExceptionTest} instance. */
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.7-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.7/jomc-tools-1.7-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8-SNAPSHOT" )
     public CommandExecutionExceptionTest()
     {
         // SECTION-START[Default Constructor]
