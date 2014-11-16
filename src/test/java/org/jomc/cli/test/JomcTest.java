@@ -500,6 +500,8 @@ public class JomcTest
         assertEquals( 6, merged.getServices().getService().size() );
         assertFalse( merged.getSchemas().getSchemasByPublicId( new URI( "http://jomc.org/model" ) ).isEmpty() );
         assertFalse( merged.getSchemas().getSchemasByPublicId( new URI( "http://jomc.org/tools/model" ) ).isEmpty() );
+        assertNotNull( merged.getSchemas().getSchemaByPublicId( "http://jomc.org/model" ) );
+        assertNotNull( merged.getSchemas().getSchemaByPublicId( "http://jomc.org/tools/model" ) );
         assertEquals( 2, merged.getServices().getServices( "org.jomc.modlet.ModelProvider" ).size() );
         assertEquals( 2, merged.getServices().getServices( "org.jomc.modlet.ModelProcessor" ).size() );
         assertEquals( 2, merged.getServices().getServices( "org.jomc.modlet.ModelValidator" ).size() );
@@ -514,6 +516,7 @@ public class JomcTest
         assertNotNull( merged.getServices() );
         assertEquals( 1, merged.getSchemas().getSchema().size() );
         assertFalse( merged.getSchemas().getSchemasByPublicId( new URI( "http://jomc.org/model" ) ).isEmpty() );
+        assertNotNull( merged.getSchemas().getSchemaByPublicId( "http://jomc.org/model" ) );
         assertEquals( 3, merged.getServices().getService().size() );
         assertEquals( 1, merged.getServices().getServices( "org.jomc.modlet.ModelProvider" ).size() );
         assertEquals( 1, merged.getServices().getServices( "org.jomc.modlet.ModelProcessor" ).size() );
