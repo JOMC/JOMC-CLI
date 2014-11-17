@@ -84,6 +84,7 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
 
     /** {@inheritDoc} */
     @Override
+    @SuppressWarnings( "deprecation" )
     protected void postExecuteCommand( final CommandLine commandLine ) throws CommandExecutionException
     {
         if ( commandLine == null )
@@ -164,6 +165,7 @@ public abstract class AbstractJomcToolCommand extends AbstractModelCommand
      *
      * @see #createObject(java.lang.String, java.lang.Class)
      */
+    @SuppressWarnings( "deprecation" )
     protected <T extends JomcTool> T createJomcTool( final String className, final Class<T> type,
                                                      final CommandLine commandLine ) throws CommandExecutionException
     {
