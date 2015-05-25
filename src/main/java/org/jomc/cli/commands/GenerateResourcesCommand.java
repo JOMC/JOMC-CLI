@@ -1730,4 +1730,5 @@ public final class GenerateResourcesCommand extends AbstractResourceFileProcesso
     }
     // </editor-fold>
     // SECTION-END
+
 }

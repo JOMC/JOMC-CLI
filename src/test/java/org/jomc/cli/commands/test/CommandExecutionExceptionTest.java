@@ -54,20 +54,22 @@ import static org.junit.Assert.assertEquals;
  * </dl>
  *
  * @author <a href="mailto:cs@schulte.it">Christian Schulte</a> 1.2
- * @version 1.8
+ * @version 1.9-SNAPSHOT
  */
 // </editor-fold>
 // SECTION-END
 // SECTION-START[Annotations]
 // <editor-fold defaultstate="collapsed" desc=" Generated Annotations ">
-@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8" )
+@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.9-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.9/jomc-tools-1.9-SNAPSHOT" )
 // </editor-fold>
 // SECTION-END
 public class CommandExecutionExceptionTest
 {
     // SECTION-START[CommandExecutionExceptionTest]
 
-    /** Constant to prefix relative resource names with. */
+    /**
+     * Constant to prefix relative resource names with.
+     */
     private static final String ABSOLUTE_RESOURCE_NAME_PREFIX = "/org/jomc/cli/commands/test/";
 
     @Test
@@ -86,7 +88,7 @@ public class CommandExecutionExceptionTest
     // SECTION-START[Constructors]
     // <editor-fold defaultstate="collapsed" desc=" Generated Constructors ">
     /** Creates a new {@code CommandExecutionExceptionTest} instance. */
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.8", comments = "See http://www.jomc.org/jomc/1.8/jomc-tools-1.8" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.9-SNAPSHOT", comments = "See http://www.jomc.org/jomc/1.9/jomc-tools-1.9-SNAPSHOT" )
     public CommandExecutionExceptionTest()
     {
         // SECTION-START[Default Constructor]
@@ -101,4 +103,5 @@ public class CommandExecutionExceptionTest
     // SECTION-END
     // SECTION-START[Messages]
     // SECTION-END
+
 }

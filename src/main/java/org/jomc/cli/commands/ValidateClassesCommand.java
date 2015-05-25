@@ -1747,4 +1747,5 @@ public final class ValidateClassesCommand extends AbstractClassFileProcessorComm
     }
     // </editor-fold>
     // SECTION-END
+
 }
