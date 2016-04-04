@@ -40,7 +40,7 @@
   <artifactId>jomc-cli</artifactId>
   <name>JOMC ⁑ CLI</name>
   <description>Object management and configuration tools command line interface.</description>
-  <url>${jomc.artifacts.url}/${project.artifactId}-${project.version}</url>
+  <url>${jomc.base.url}/${jomc.site.location}/${project.artifactId}-${project.version}</url>
   <build>
     <pluginManagement>
       <plugins>
@@ -650,9 +650,9 @@
   </dependencies>
   <distributionManagement>
     <site>
-      <id>${jomc.artifacts.distribution.id}</id>
-      <name>${jomc.artifacts.distribution.name}</name>
-      <url>${jomc.artifacts.distribution.url}/${project.artifactId}-${project.version}</url>
+      <id>${jomc.site.distribution.id}</id>
+      <name>${jomc.site.distribution.name}</name>
+      <url>${jomc.site.distribution.base.url}/${jomc.site.location}/${project.artifactId}-${project.version}</url>
     </site>
   </distributionManagement>
   <properties>
