@@ -55,7 +55,7 @@ package org.jomc.cli.commands;
 // SECTION-END
 // SECTION-START[Annotations]
 // <editor-fold defaultstate="collapsed" desc=" Generated Annotations ">
-@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.10-SNAPSHOT", comments = "See http://www.jomc.org/jomc-tools/1.10-SNAPSHOT/jomc-tools-1.10-SNAPSHOT" )
+@javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.9", comments = "See http://www.jomc.org/jomc/1.9/jomc-tools-1.9" )
 // </editor-fold>
 // SECTION-END
 public class CommandExecutionException extends Exception
@@ -102,7 +102,7 @@ public class CommandExecutionException extends Exception
     // SECTION-START[Constructors]
     // <editor-fold defaultstate="collapsed" desc=" Generated Constructors ">
     /** Creates a new {@code CommandExecutionException} instance. */
-    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.10-SNAPSHOT", comments = "See http://www.jomc.org/jomc-tools/1.10-SNAPSHOT/jomc-tools-1.10-SNAPSHOT" )
+    @javax.annotation.Generated( value = "org.jomc.tools.SourceFileProcessor 1.9", comments = "See http://www.jomc.org/jomc/1.9/jomc-tools-1.9" )
     public CommandExecutionException()
     {
         // SECTION-START[Default Constructor]

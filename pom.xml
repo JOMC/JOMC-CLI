@@ -748,61 +748,6 @@
       <!-- JOMC -->
       <dependency>
         <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>tests</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>javadoc</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>test-javadoc</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>sources</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>test-sources</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>project</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>site</classifier>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jomc</groupId>
-        <artifactId>jomc-jls</artifactId>
-        <classifier>license</classifier>
-        <type>txt</type>
-        <version>${jomc-jls.artifact.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.jomc</groupId>
         <artifactId>jomc-util</artifactId>
         <version>${jomc-util.artifact.version}</version>
       </dependency>
@@ -1488,15 +1433,14 @@
     <jomc.cli.application.option.version>1.2</jomc.cli.application.option.version>
     <jomc.cli.command.option.version>1.2</jomc.cli.command.option.version>
     <jomc-cli.artifact.version>${project.version}</jomc-cli.artifact.version>
-    <jomc-jls.artifact.version>1.7.0</jomc-jls.artifact.version>
-    <jomc-util.artifact.version>1.10-SNAPSHOT</jomc-util.artifact.version>
-    <jomc-modlet.artifact.version>1.10-SNAPSHOT</jomc-modlet.artifact.version>
-    <jomc-model.artifact.version>1.10-SNAPSHOT</jomc-model.artifact.version>
-    <jomc-tools.artifact.version>1.10-SNAPSHOT</jomc-tools.artifact.version>
-    <maven-jomc-plugin.artifact.version>1.10-SNAPSHOT</maven-jomc-plugin.artifact.version>
-    <jomc-ant-tasks.artifact.version>1.10-SNAPSHOT</jomc-ant-tasks.artifact.version>
-    <jomc-api.artifact.version>1.10-SNAPSHOT</jomc-api.artifact.version>
-    <jomc-spi.artifact.version>1.10-SNAPSHOT</jomc-spi.artifact.version>
+    <jomc-util.artifact.version>1.9</jomc-util.artifact.version>
+    <jomc-modlet.artifact.version>1.9</jomc-modlet.artifact.version>
+    <jomc-model.artifact.version>1.9</jomc-model.artifact.version>
+    <jomc-tools.artifact.version>1.9</jomc-tools.artifact.version>
+    <maven-jomc-plugin.artifact.version>1.9</maven-jomc-plugin.artifact.version>
+    <jomc-ant-tasks.artifact.version>1.9</jomc-ant-tasks.artifact.version>
+    <jomc-api.artifact.version>1.9</jomc-api.artifact.version>
+    <jomc-spi.artifact.version>1.9</jomc-spi.artifact.version>
     <jomc-ri.artifact.version>1.9</jomc-ri.artifact.version>
     <jomc-cli.artifact.version>1.10-SNAPSHOT</jomc-cli.artifact.version>
   </properties>
