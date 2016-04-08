@@ -484,8 +484,9 @@ public class JomcTest
             "merge-modlets", "-xs", '"' + this.getTestModletStylesheet().getAbsolutePath() + '"', "-mdn",
             '"' + this.getTestModletName() + '"', "-d",
             '"' + this.getTestModletOutputDocument().getAbsolutePath() + '"',
-            "-mdexc=\"JOMC ⁑ Model" + File.pathSeparatorChar + "JOMC Tools ⁑ Tools" + File.pathSeparatorChar
-            + "JOMC ⁑ Modlet\"", "-cp", "."
+            "-mdexc=\"JOMC ⁑ Model" + File.pathSeparatorChar + "JOMC Tools ⁑ Tools"
+            + File.pathSeparatorChar + "JOMC ⁑ Tools" // < JOMC Tools 1.10
+            + File.pathSeparatorChar + "JOMC ⁑ Modlet\"", "-cp", "."
         };
 
         final String[] unsupportedOption = new String[]
