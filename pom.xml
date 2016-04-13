@@ -1448,6 +1448,7 @@
     <jomc-spi.artifact.version>1.9</jomc-spi.artifact.version>
     <jomc-ri.artifact.version>1.9</jomc-ri.artifact.version>
     <jomc-cli.artifact.version>1.10-SNAPSHOT</jomc-cli.artifact.version>
+    <org.apache.commons.cli.Option.UNLIMITED_VALUES>-2</org.apache.commons.cli.Option.UNLIMITED_VALUES>
   </properties>
   <profiles>
     <profile>
